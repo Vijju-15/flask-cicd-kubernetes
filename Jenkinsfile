@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhub-credentials')
-        DOCKER_IMAGE = 'YOUR_DOCKERHUB_USERNAME/flask-app'
+        DOCKER_IMAGE = 'vijju15/flask-app'
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
     

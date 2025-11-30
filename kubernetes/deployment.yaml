@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: YOUR_DOCKERHUB_USERNAME/flask-app:latest
+        image: vijju15/flask-app:latest
         ports:
         - containerPort: 5000
         livenessProbe:
